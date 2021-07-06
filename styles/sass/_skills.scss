@@ -16,6 +16,8 @@
   font-size: 4rem;
   justify-items: center;
   padding: 40px 40px 40px 0;
+  font-weight: bold;
+  text-align: center;
 }
 
 .skillsGrid i {
@@ -23,4 +25,40 @@
 }
 .skillsGrid i:hover {
 color: $highlight;
+  p {
+    color: $highlight;
+  }
+}
+.fa-html5:hover {
+  transform: rotateZ(90deg) translate(20px, -50px);
+}
+.fa-css3-alt:hover {
+  transform: rotateY(1440deg);
+}
+.fa-js-square:hover {
+  transform: rotateX(1440deg);
+}
+.fa-react:hover {
+  transform: rotate(1440deg);
+}
+.fa-download:hover {
+  transform: translateY(16px);
+}
+.fa-terminal:hover {
+  transform: translateX(20px);
+}
+.fa-database:hover {
+  transform: scale(1.3);
+}
+.fa-github-square:hover {
+  transform: skewX(30deg);
+}
+.fa-universal-access:hover {
+  transform: rotateZ(1440deg);
+}
+.fa-mobile-alt:hover {
+  transform: scale(0.5);
+}
+.fa-sass:hover {
+  transform: skewY(-30deg);
 }

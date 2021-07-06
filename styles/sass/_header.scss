@@ -1,15 +1,20 @@
 
 header {
-  height: 50vh;
+  min-height: 60vh;
+  background-color: $grey;
   background: linear-gradient(to top, rgba(255,255,255,0.9) 10%, rgba(255,255,255,0.8)), url("../assets/flower-back.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   // position: relative;
   .top {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    // margin-bottom: 10px;
+    padding-right: 15%;
+  }
+  .logo {
+    float: left;
   }
   nav ul{
     display: flex;
@@ -19,13 +24,13 @@ header {
   }
   h1 {
     font-size: 4rem;
-    padding: 10% 0 0 10%;
+    padding: 15% 0 0 10%;
     color: #FDCA4A;
     text-shadow: 1px 1px gray;
   }
   h2 {
     font-size: 1.6rem;
-    padding: 0 0 0 15%;
+    padding: 0 0 0 20%;
     color: $darkGrey;
   }
   h3 {

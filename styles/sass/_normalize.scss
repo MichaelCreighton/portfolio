@@ -9,11 +9,12 @@ body {
 }
 .wrapper {
   max-width: 1600px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 html {
   font-size: 125%;
+   scroll-behavior: smooth;
 }
 img {
     max-width: 100%;

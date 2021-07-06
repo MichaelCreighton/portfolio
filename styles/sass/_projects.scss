@@ -1,7 +1,14 @@
 .projects {
+  
   h2 {
     padding: 30px 0 10px 30px;
     border-bottom: 3px solid $highlight;
     width: 40%;
   }
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
