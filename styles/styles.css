@@ -1,0 +1,393 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.wrapper {
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 125%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #2F4F4F;
+}
+
+header {
+  height: 50vh;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.8))), url("../assets/flower-back.png");
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.9) 10%, rgba(255, 255, 255, 0.8)), url("../assets/flower-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10px;
+}
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav ul li {
+  padding-right: 20%;
+}
+header h1 {
+  font-size: 4rem;
+  padding: 10% 0 0 10%;
+  color: #FDCA4A;
+  text-shadow: 1px 1px gray;
+}
+header h2 {
+  font-size: 1.6rem;
+  padding: 0 0 0 15%;
+  color: #2F4F4F;
+}
+header h3 {
+  font-size: 3rem;
+  color: #2F4F4F;
+}
+
+.bottom-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.copy {
+  background-color: #FDCA4A;
+  color: #EFEFEF;
+}
+
+p {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.bottom-icons :hover {
+  color: #FDCA4A;
+}
+
+.about {
+  padding-bottom: 40px;
+}
+.about h2 {
+  border-bottom: 3px solid #FDCA4A;
+  width: 40%;
+  padding: 30px 0 10px 30px;
+  margin-bottom: 30px;
+}
+.about .about-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.about .about-img {
+  grid-column: 1/2;
+}
+.about .about-text {
+  grid-column: 2/3;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skills {
+  background-color: #EFEFEF;
+}
+
+.skills h2 {
+  padding: 30px 0 10px 30px;
+  border-bottom: 3px solid #FDCA4A;
+  width: 40%;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+  font-size: 4rem;
+  justify-items: center;
+  padding: 40px 40px 40px 0;
+}
+
+.skillsGrid i {
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.skillsGrid i:hover {
+  color: #FDCA4A;
+}
+
+.projects h2 {
+  padding: 30px 0 10px 30px;
+  border-bottom: 3px solid #FDCA4A;
+  width: 40%;
+}

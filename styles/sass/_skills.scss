@@ -1,0 +1,26 @@
+.skills {
+  background-color: $grey;
+}
+
+.skills h2 {
+  padding: 30px 0 10px 30px;
+  border-bottom: 3px solid $highlight;
+  width: 40%;
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 50px;
+  font-size: 4rem;
+  justify-items: center;
+  padding: 40px 40px 40px 0;
+}
+
+.skillsGrid i {
+  transition: 0.5s ease-out;
+}
+.skillsGrid i:hover {
+color: $highlight;
+}

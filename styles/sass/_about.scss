@@ -1,0 +1,26 @@
+.about {
+  
+  padding-bottom: 40px;
+  h2 {
+    border-bottom: 3px solid $highlight;
+    width: 40%;
+    padding: 30px 0 10px 30px;
+    margin-bottom: 30px;
+  }
+
+  .about-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    
+  }
+  .about-img {
+    grid-column: 1 / 2;
+  }
+  .about-text {
+    grid-column: 2 / 3;
+    align-items: center;
+  }
+
+
+}

@@ -1,0 +1,17 @@
+
+.bottom-info {
+  display: flex;
+  align-content: space-between;
+}
+.copy {
+  background-color: $highlight;
+  color: $grey;
+}
+
+p {
+  font-size: 0.6rem;
+  text-align: center;
+}
+.bottom-icons :hover {
+  color: $highlight;
+}

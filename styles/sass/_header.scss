@@ -1,0 +1,36 @@
+
+header {
+  height: 50vh;
+  background: linear-gradient(to top, rgba(255,255,255,0.9) 10%, rgba(255,255,255,0.8)), url("../assets/flower-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // position: relative;
+  .top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  }
+  nav ul{
+    display: flex;
+    li {
+      padding-right: 20%;
+    }
+  }
+  h1 {
+    font-size: 4rem;
+    padding: 10% 0 0 10%;
+    color: #FDCA4A;
+    text-shadow: 1px 1px gray;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding: 0 0 0 15%;
+    color: $darkGrey;
+  }
+  h3 {
+    font-size: 3rem;
+    color: $darkGrey;
+  }
+ 
+}

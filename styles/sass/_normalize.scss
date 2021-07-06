@@ -1,0 +1,35 @@
+// Base styles for page
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: $grey;
+}
+.wrapper {
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
+}
+html {
+  font-size: 125%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: $darkGrey;
+}
+
+// End base styles
+
+
+
