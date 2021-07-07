@@ -239,6 +239,14 @@ h1, h2, h3, h4, p {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  color: #2F4F4F;
+}
+
+h2 {
+  padding: 30px 0 10px 30px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #FDCA4A;
+  width: 40%;
 }
 
 body {
@@ -290,9 +298,6 @@ header .top {
           justify-content: space-between;
   padding-right: 15%;
 }
-header .logo {
-  float: left;
-}
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -307,9 +312,9 @@ header h1 {
   color: #FDCA4A;
   text-shadow: 1px 1px gray;
 }
-header h2 {
+header h4 {
   font-size: 1.6rem;
-  padding: 0 0 0 20%;
+  padding: 2% 0 5% 20%;
   color: #2F4F4F;
 }
 header h3 {
@@ -342,12 +347,6 @@ p {
 .about {
   padding-bottom: 40px;
 }
-.about h2 {
-  border-bottom: 3px solid #FDCA4A;
-  width: 40%;
-  padding: 30px 0 10px 30px;
-  margin-bottom: 30px;
-}
 .about .about-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -365,12 +364,6 @@ p {
 
 .skills {
   background-color: #EFEFEF;
-}
-
-.skills h2 {
-  padding: 30px 0 10px 30px;
-  border-bottom: 3px solid #FDCA4A;
-  width: 40%;
 }
 
 .skillsGrid {
@@ -452,17 +445,38 @@ p {
           transform: skewY(-30deg);
 }
 
-.projects h2 {
-  padding: 30px 0 10px 30px;
-  border-bottom: 3px solid #FDCA4A;
-  width: 40%;
-}
-
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 60px 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.project-grid img {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 3%;
+}
+.project-grid .text-and-button {
+  text-align: center;
+}
+.project-grid .text-and-button p {
+  margin-bottom: 20px;
+}
+.project-grid .text-and-button button {
+  font-size: 0.6rem;
+  margin: 0 20px 5px 0;
+  padding-bottom: 2px;
+  border: none;
+  border-bottom: solid 2px #FDCA4A;
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+.project-grid .text-and-button button:hover {
+  background-color: #FDCA4A;
+  padding-top: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px, rgba(0, 0, 0, 0.22) 5px 6px 5px;
+          box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px, rgba(0, 0, 0, 0.22) 5px 6px 5px;
+  border-radius: 5%;
 }

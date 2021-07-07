@@ -3,6 +3,13 @@ h1, h2, h3, h4, p {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  color: $darkGrey;
+}
+h2 {
+  padding: 30px 0 10px 30px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid $highlight;
+  width: 40%;
 }
 body {
   background-color: $grey;

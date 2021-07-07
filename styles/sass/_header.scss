@@ -13,9 +13,7 @@ header {
     // margin-bottom: 10px;
     padding-right: 15%;
   }
-  .logo {
-    float: left;
-  }
+
   nav ul{
     display: flex;
     li {
@@ -28,10 +26,11 @@ header {
     color: #FDCA4A;
     text-shadow: 1px 1px gray;
   }
-  h2 {
+  h4 {
     font-size: 1.6rem;
-    padding: 0 0 0 20%;
+    padding: 2% 0 5% 20%;
     color: $darkGrey;
+
   }
   h3 {
     font-size: 3rem;
@@ -39,3 +38,4 @@ header {
   }
  
 }
+

@@ -1,14 +1,41 @@
 .projects {
   
-  h2 {
-    padding: 30px 0 10px 30px;
-    border-bottom: 3px solid $highlight;
-    width: 40%;
-  }
 }
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 60px 20px;
   align-items: center;
+
+  img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 3%;
+  }
+  .text-and-button {
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+    p {
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 0.6rem;
+      margin: 0 20px 5px 0;
+      padding-bottom: 2px;
+      // background-color: $highlight;
+      border: none;
+      // box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 5px, rgba(0, 0, 0, 0.22) 5px 6px 5px;
+      border-bottom: solid 2px $highlight;
+      transition: 0.1s ease-out;
+    }
+    button:hover {
+      background-color: $highlight;
+      padding-top: 4px;
+      box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px, rgba(0, 0, 0, 0.22) 5px 6px 5px;
+      border-radius: 5%;
+    }
+    
+  }
+
+
 }

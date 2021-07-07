@@ -38,3 +38,23 @@ jquery:
 terminal: <i class="fas fa-terminal"></i>
 responsive design: <i class="fas fa-mobile-alt"></i>
 accessibility: <i class="fas fa-universal-access"></i>
+
+night at the museum github url:
+https://github.com/night-at-the-museum/night-at-the-museum
+live:
+https://nightatthemuseum.netlify.app/
+
+under the sea github url:
+https://github.com/MichaelCreighton/michael-creighton-project1
+live:
+https://under-the-sea-c0d9e1.netlify.app/contact.html
+
+pics and quotes github url:
+https://github.com/MichaelCreighton/pics-and-quotes
+live:
+https://pics-and-quotes-d8cb24.netlify.app/
+
+bootcamp diaries github url:
+https://github.com/4-u-2-write/4-u-2-write
+live:
+https://bootcamp-diaries.netlify.app/
