@@ -23,6 +23,8 @@ icons from font awesome:
 mail: <i class="fas fa-envelope"></i>
 phone: <i class="fas fa-phone-alt"></i>
 location: <i class="fas fa-paper-plane"></i>
+pin : <i class="fas fa-map-pin"></i>
+marker: <i class="fas fa-map-marker-alt"></i>
 css: <i class="fab fa-css3-alt"></i>
 html: <i class="fab fa-html5"></i>
 react: <i class="fab fa-react"></i>
@@ -58,3 +60,12 @@ bootcamp diaries github url:
 https://github.com/4-u-2-write/4-u-2-write
 live:
 https://bootcamp-diaries.netlify.app/
+
+my twitter:
+https://twitter.com/miklcc1
+
+my github:
+https://github.com/MichaelCreighton
+
+my linkedin:
+https://www.linkedin.com/in/michael-creighton-75576b211/

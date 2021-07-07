@@ -1,7 +1,12 @@
 
 .bottom-info {
   display: flex;
-  align-content: space-between;
+  justify-content: space-between;
+  
+}
+.bottom-info i {
+  transition: 0.3s;
+  margin-right: 10px;
 }
 .copy {
   background-color: $highlight;
@@ -14,4 +19,5 @@ p {
 }
 .bottom-icons :hover {
   color: $highlight;
+  scale: 1.3;
 }
