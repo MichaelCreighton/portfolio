@@ -2,15 +2,18 @@
 .bottom-info {
   display: flex;
   justify-content: space-between;
+  padding: 20px 0;
   
 }
 .bottom-info i {
-  transition: 0.3s;
-  margin-right: 10px;
+  font-size: 1.6rem;
+  transition: 0.2s;
+  padding: 0 20px;
 }
 .copy {
   background-color: $highlight;
   color: $grey;
+  padding: 5px 0;
 }
 
 p {

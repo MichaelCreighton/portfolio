@@ -254,7 +254,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1600px;
   width: 80%;
   margin: 0 auto;
 }
@@ -304,12 +304,13 @@ header nav ul {
   display: flex;
 }
 header nav ul li {
-  padding-right: 10%;
+  padding-right: 5%;
 }
 header h1 {
   font-size: 4rem;
-  padding: 15% 0 0 10%;
+  padding: 8% 0 0 7%;
   color: #FDCA4A;
+  width: 50%;
   text-shadow: 1px 1px gray;
 }
 header h4 {
@@ -329,17 +330,20 @@ header h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 20px 0;
 }
 
 .bottom-info i {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  margin-right: 10px;
+  font-size: 1.6rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding: 0 20px;
 }
 
 .copy {
   background-color: #FDCA4A;
   color: #EFEFEF;
+  padding: 5px 0;
 }
 
 p {
@@ -380,9 +384,8 @@ p {
 
 .skillsGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 40px 0px;
   font-size: 2rem;
   justify-items: center;
   padding: 40px 40px 40px 0;
@@ -455,10 +458,11 @@ p {
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px 20px;
+  gap: 160px 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 80px;
 }
 .project-grid img {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -467,9 +471,18 @@ p {
 }
 .project-grid .text-and-button {
   text-align: center;
+  padding: 50px 30px;
+  border: 1px #EFEFEF solid;
+  border-radius: 20px;
+  background: #F0F0F0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.12) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.12) 0px 15px 12px;
+}
+.project-grid .text-and-button h3 {
+  padding: 0 20px 30px 20px;
 }
 .project-grid .text-and-button p {
-  margin-bottom: 20px;
+  padding: 0 10% 20px 10%;
 }
 .project-grid .text-and-button button {
   font-size: 0.6rem;
@@ -494,6 +507,21 @@ p {
           box-shadow: none;
 }
 
+.contact {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../assets/hex-back.jpg");
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0.8)), url("../assets/hex-back.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+.contact .contact-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .contact .icon-list {
   padding: 40px 0;
 }
@@ -509,10 +537,73 @@ p {
 .contact i {
   font-size: 2rem;
   padding-right: 40px;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+.contact i:hover {
+  color: #FDCA4A;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .contact p {
   padding-top: 5px;
   font-size: 1rem;
   letter-spacing: 1px;
   text-align: left;
+}
+.contact fieldset {
+  border: 1px solid #2F4F4F;
+  margin: 40px 0 80px 40px;
+  padding: 50px;
+}
+.contact fieldset legend {
+  color: #2F4F4F;
+  font-size: 0.9rem;
+}
+.contact form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact form #name {
+  grid-column: 1/2;
+  background: none;
+  padding-left: 30px;
+  border: 1px solid #2F4F4F;
+}
+.contact form #email {
+  grid-column: 1/2;
+  background: none;
+  padding-left: 30px;
+  border: 1px solid #2F4F4F;
+}
+.contact form input,
+.contact form textarea {
+  border-radius: 5px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: 2px solid #2F4F4F;
+}
+.contact form #message {
+  grid-column: 1/3;
+  background: none;
+  padding: 30px 0 0 30px;
+  border: 1px solid #2F4F4F;
+}
+.contact form button {
+  grid-column: 1/3;
+  background: none;
+  margin-top: 10px;
+  padding: 10px 0;
+  border: 1px solid #FDCA4A;
+  border-radius: 28px;
+  color: #2F4F4F;
+}
+.contact form button:hover {
+  background: #FDCA4A;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px, rgba(0, 0, 0, 0.22) 5px 6px 5px;
+          box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px, rgba(0, 0, 0, 0.22) 5px 6px 5px;
+  border: 1px solid #2F4F4F;
 }

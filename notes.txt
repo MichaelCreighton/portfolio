@@ -21,6 +21,7 @@ font-family: 'Montserrat', sans-serif;
 
 icons from font awesome:
 mail: <i class="fas fa-envelope"></i>
+open mail: <i class="fas fa-envelope-open"></i>
 phone: <i class="fas fa-phone-alt"></i>
 location: <i class="fas fa-paper-plane"></i>
 pin : <i class="fas fa-map-pin"></i>
@@ -40,6 +41,10 @@ jquery:
 terminal: <i class="fas fa-terminal"></i>
 responsive design: <i class="fas fa-mobile-alt"></i>
 accessibility: <i class="fas fa-universal-access"></i>
+python: <i class="fab fa-python"></i>
+
+
+
 
 night at the museum github url:
 https://github.com/night-at-the-museum/night-at-the-museum

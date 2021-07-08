@@ -5,9 +5,8 @@
 
 .skillsGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 40px 0px;
   font-size: 2rem;
   justify-items: center;
   padding: 40px 40px 40px 0;
