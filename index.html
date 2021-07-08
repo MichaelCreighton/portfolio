@@ -112,15 +112,15 @@
               <a href="https://nightatthemuseum.netlify.app/" target="_blank" rel="noopener noreferrer"><button class="live">See It Live</button></a> <a href="https://github.com/night-at-the-museum/night-at-the-museum" target="_blank" rel="noopener noreferrer"><button class="code">See The Code</button></a>
             </div>
             <div class="text-and-button">
-              <h3>Pics with Quotes</h3>
-              <p>Pics With Quotes is sometimes a very deep and introspective experience and sometimes it's just hilarious. It uses two API calls to, first get a random quote from the Quote Garden API, and then a second one to get a random picture from Unsplash, matching the quote genre. With all this randomness, the connections are different for every user...</p>
+              <h3>Pics and Quotes</h3>
+              <p>Pics and Quotes is sometimes a very deep and introspective experience and sometimes it's just hilarious. It uses two API calls to, first get a random quote from the Quote Garden API, and then a second one to get a random picture from Unsplash, matching the quote genre. With all this randomness, the connections are different for every user...</p>
               <a href="https://pics-and-quotes-d8cb24.netlify.app/" target="_blank" rel="noopener noreferrer"><button class="live">See It Live</button></a> <a href="https://github.com/MichaelCreighton/pics-and-quotes" target="_blank" rel="noopener noreferrer"><button class="code">See The Code</button></a>
             </div>
             <img src="../assets/pics-and-quotes.png" alt="">
             <img src="../assets/bootcamp-dark.png" alt="">
             <div class="text-and-button">
               <h3>Bootcamp Diaries</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aut repellendus incidunt eveniet natus eos suscipit optio vel, libero deleniti. Odio, similique optio! Deserunt provident natus veniam qui a, in perferendis maiores consectetur veritatis? Corporis vero laborum aut deleniti molestias quam praesentium maxime magni soluta excepturi eum quisquam, sequi eveniet officia nobis odit, rerum voluptatem.</p>
+              <p>Bootcamp Diaries is a minimalist app for writers. It was a group programming project while at the JUNO bootcamp, created with Corey, Taz, and Tiffany. It employs Firebase to store and retrieve writing prompts, for those whith a touch of writers block. It also provides a timer functionality </p>
               <a href="https://bootcamp-diaries.netlify.app/" target="_blank" rel="noopener noreferrer"><button class="live">See It Live</button></a> <a href="https://github.com/4-u-2-write/4-u-2-write" target="_blank" rel="noopener noreferrer"><button class="code">See The Code</button></a>
             </div>
             <div class="text-and-button">
@@ -143,8 +143,7 @@
             <div class="icon-list">
               <ul>
                 <div class="icon-text">
-                  <!-- <i class="fas fa-envelope"></i> -->
-                  <i class="fas fa-envelope" ></i>
+                  <a href="mailto:mikl@mts.net"><i class="fas fa-envelope" ></i></a>
                   <li><p>Email<br>mikl (at) mts.net</p></li>
                   <!-- <li><p>mikl@mts.net</p></li> -->
                 </div>
@@ -161,14 +160,14 @@
               </ul>
             </div>
             <fieldset>
-              <legend>Get in Touch</legend>
-              <form>
+              <legend>Say Hello:</legend>
+              <form name="contact" method="POST" netlify-data="true">
                 <label for="name" class="sr-only" >Your Name</label>
                 <input type="text" name="name" id="name" placeholder="Your Name">
                 <label for="email" class="sr-only" >Your Email</label>
                 <input type="email" name="email" id="email" placeholder="Your Email">
                 <label for="message" class="sr-only" >Your Message</label>
-                <textarea name="message" id="message" placeholder="Your Message" cols="80" rows="10"></textarea>
+                <textarea name="message" id="message" placeholder="Your Message" cols="80" rows="7"></textarea>
                 <button type="submit" >Submit</button>
               </form>
             </fieldset>

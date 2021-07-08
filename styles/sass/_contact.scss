@@ -8,19 +8,22 @@
     justify-content: space-between;
   }
   .icon-list {
-    padding: 40px 0;
+    // padding: 40px 0;
+    display: flex;
+    align-items: center;
   }
   .icon-text {
     display: flex;
-    padding-bottom: 60px;
+    padding: 0 80px 110px 0;
     align-items: center;
   }
   i {
+    color: $darkGrey;
     font-size: 2rem;
     padding-right: 40px;
     transition: 0.2s ease-out;
   }
-  i:hover {
+  .fa-envelope:hover {
     color: $highlight;
     transform: scale(1.2);
   }
