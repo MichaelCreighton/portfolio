@@ -42,6 +42,7 @@ terminal: <i class="fas fa-terminal"></i>
 responsive design: <i class="fas fa-mobile-alt"></i>
 accessibility: <i class="fas fa-universal-access"></i>
 python: <i class="fab fa-python"></i>
+data graph: <i class="fas fa-chart-bar"></i>
 
 
 

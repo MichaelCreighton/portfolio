@@ -375,10 +375,12 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: left;
 }
 .about .about-text p {
   line-height: 1.5;
   font-size: 0.7rem;
+  padding: 0 10% 20px 10%;
 }
 
 .skills {
@@ -528,7 +530,7 @@ p {
   background-size: cover;
   background-position: center;
   margin-top: 60px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .contact .contact-flex {
   display: -webkit-box;
