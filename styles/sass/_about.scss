@@ -1,20 +1,23 @@
 .about {
   
-  // padding-bottom: 40px;
   padding: 40px 0 40px 0;
   .about-info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    // gap: 10px 40px;
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items:  center;
   }
   .about-img {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
   }
   .about-text {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
     align-items: center;
+    p {
+      line-height: 1.5;
+      font-size: 0.7rem;
+
+    }
   }
 
 
