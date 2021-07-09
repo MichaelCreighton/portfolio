@@ -6,14 +6,12 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // position: relative;
+
   .top {
     display: flex;
     justify-content: space-between;
-    // margin-bottom: 20px;
     padding-right: 15%;
   }
-
   nav ul{
     display: flex;
     li {
@@ -21,7 +19,6 @@ header {
     }
     a:hover {
       border-bottom: 2px solid $highlight;
-      // color: $highlight;
     }
   }
   h1 {
