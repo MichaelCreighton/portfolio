@@ -19,6 +19,10 @@ header {
     li {
       padding-right: 5%;
     }
+    a:hover {
+      border-bottom: 2px solid $highlight;
+      // color: $highlight;
+    }
   }
   h1 {
     font-size: 4rem;
