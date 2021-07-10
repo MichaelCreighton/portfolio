@@ -642,6 +642,7 @@ p {
   color: #2F4F4F;
   -webkit-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
+  padding: 10px;
 }
 
 .skillsGrid i:hover {
