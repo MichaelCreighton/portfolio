@@ -517,6 +517,11 @@ a {
   color: #2F4F4F;
 }
 
+a,
+button {
+  cursor: pointer;
+}
+
 header {
   min-height: 50vh;
   background-color: #EFEFEF;
@@ -618,8 +623,9 @@ p {
   text-align: left;
 }
 .about .about-text p {
-  line-height: 1.5;
-  font-size: 0.7rem;
+  line-height: 1.9;
+  letter-spacing: 0.6px;
+  font-size: 0.8rem;
   padding: 0 10% 20px 10%;
 }
 
@@ -740,7 +746,9 @@ p {
 }
 .project-grid .text-and-button p {
   padding: 0 10% 20px 10%;
-  line-height: 1.5;
+  line-height: 1.7;
+  letter-spacing: 0.8;
+  font-size: 0.8rem;
 }
 .project-grid .text-and-button button {
   font-size: 0.6rem;

@@ -48,6 +48,10 @@ a {
   letter-spacing: 1px;
   color: $darkGrey;
 }
+a,
+button {
+    cursor: pointer;
+}
 
 // End base styles
 
