@@ -10,6 +10,23 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 3%;
   }
+  // .boxes {
+  //   display: grid;
+  // }
+  /* sets all boxes to the right */
+  .box {
+    transform: translateX(300%);
+    transition: transform 0.4s ease-out;
+  }
+  /* set every second box to the left */
+  /* so the boxes will alternate the sides they come in from */
+  .box:nth-of-type(odd) {
+    transform: translateX(-300%);
+  }
+  .box.show {
+    transform: translateX(0);
+  }
+
   .text-and-button {
     text-align: center;
     padding: 50px 30px;
@@ -18,7 +35,6 @@
     background: #F0F0F0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.12) 0px 15px 12px;
 
-    // margin: 0 30px;
     h3 {
       padding: 0 20px 30px 20px;
     }
