@@ -5,8 +5,6 @@
   gap: 120px 50px;
   align-items: center;
   padding: 20px 5px;
-  overflow-x: hidden;
-
   img {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 3%;
@@ -17,7 +15,8 @@
   /* sets all boxes to the right */
   .box {
     transform: translateX(300%);
-    transition: transform 0.4s ease-out;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
   }
   /* set every second box to the left */
   /* so the boxes will alternate the sides they come in from */

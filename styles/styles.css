@@ -488,6 +488,7 @@ h2 {
 
 body {
   background-color: #EFEFEF;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -730,7 +731,6 @@ p {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 5px;
-  overflow-x: hidden;
   /* sets all boxes to the right */
   /* set every second box to the left */
   /* so the boxes will alternate the sides they come in from */
@@ -743,10 +743,10 @@ p {
 .project-grid .box {
   -webkit-transform: translateX(300%);
           transform: translateX(300%);
-  -webkit-transition: -webkit-transform 0.4s ease-out;
-  transition: -webkit-transform 0.4s ease-out;
-  transition: transform 0.4s ease-out;
-  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: -webkit-transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), -webkit-transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .project-grid .box:nth-of-type(odd) {
   -webkit-transform: translateX(-300%);
