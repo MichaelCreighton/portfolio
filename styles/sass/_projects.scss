@@ -9,13 +9,11 @@
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 3%;
   }
-  // .boxes {
-  //   display: grid;
-  // }
+  
   /* sets all boxes to the right */
   .box {
     transform: translateX(300%);
-    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 0.4s ease-in-out;
     
   }
   /* set every second box to the left */
